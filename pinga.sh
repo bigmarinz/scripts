@@ -1,14 +1,13 @@
 #!/bin/bash
 #
 #
-# Daniele marinello <marinz@email.it>
+# <m2346zc5-github@yahoo.it>
 # 
-# script per crontab (ho impostato che venga eseguito ad ogni minuto)
-# v 0.3
-# Se riesce a pingare un IP della lan, significa che qualcuno ha acceso il pc, e quindi arresto rtorrent.
-# Se non pinga più niente, lo fa ripartire perchè in questo caso il muletto è il solo pc attivo.
+# crontab script
+# Se riesce a pingare un IP della lan, esegue un azione
+# Se non pinga, ne esegue un altra
 #
-# richiede il file "ping_lanIP" in home contenente gli IP dei pc in lan
+# richiede il file "ping_lanIP" in /home contenente gli IP dei pc
 
 c=0;
 pc=0;

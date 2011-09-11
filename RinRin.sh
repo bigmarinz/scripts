@@ -1,8 +1,7 @@
 #!/bin/bash
 # 
 # RinRin.sh
-# Daniele Marinello <marinz at email dot it>
-# v 0.1
+# <m2346zc5-github@yahoo.it>
 #
 # Rinomina i file di una serie televisiva nel formato <stagione>x<puntata>, es: 1x01 1x02...
 # oppure nel formato s01e01 s01e02...
@@ -15,9 +14,6 @@ estensione=avi          # estensione dei filmati
 
 # -------------------------
 
-#don't edit:
-#
-#
 delimitatore_it=x;     # eg: 1x01 
 delimitatore_en=e;   # eg: s01e01
 

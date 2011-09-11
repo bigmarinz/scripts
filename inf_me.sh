@@ -1,21 +1,21 @@
 # !/bin/bash
 # 
-# Daniele Marinello <marinz@email.it>
+# <m2346zc5-github@yahoo.it>
 #
-# a crontab script for muletto, v0.2
+# a crontab script
 # required: nbsmtp vnstat (check user permission or use this script as root)
 #
 
 # edit settings:
 interface="wlan0"
-from="marinz@email.it"
-to="marinz@email.it"
-subject="resoconto stainer"
+from="m2346zc5-github@yahoo.it"
+to="m2346zc5-github@yahoo.it"
+subject="report"
 smtpserver="smtp.email.it"
 
 # if you want use smtp-auth, set these parameters: 
-smtplogin="marinz@email.it"
-smtppass="888opwwnhe8cmr634bxs"
+smtplogin="user"
+smtppass="password"
 
 # user cmd:
 uptime="$(uptime | cut -d" " -f5)"
